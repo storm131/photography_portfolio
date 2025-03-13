@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Photography Portfolio</title>
+    <!-- Link to the external CSS -->
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <h1>My Photography</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#intro">Introduction</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#prices">Prices</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Introduction Section -->
+    <section id="intro">
+        <h2>Welcome to My Photography Portfolio</h2>
+        <p>Explore high-quality photography services that capture the essence of your special moments.</p>
+    </section>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-text">
+            <h2>Capture The Moment</h2>
+            <p>Photography that tells your story</p>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+        <h2>Photography Gallery</h2>
+        <div class="gallery-container">
+            <div class="gallery-item">
+                <img src="images/image_1.jpg" alt="Nature Photography">
+            </div>
+            <div class="gallery-item">
+                <img src="images/image_2.jpg" alt="Portrait Photography">
+            </div>
+            <div class="gallery-item">
+                <img src="images/image_3.jpg" alt="Wardrobe Photography">
+            </div>
+            <div class="gallery-item">
+                <img src="images/image_4.jpg" alt="Wildlife Photography">
+            </div>
+            <div class="gallery-item">
+                <img src="images/image_5.jpg" alt="Landscape Photography">
+            </div>
+            <div class="gallery-item">
+                <img src="images/image_6.jpg" alt="Wedding Photography">
+            </div>
+        </div>
+    </section>
+
+    <!-- Price Section -->
+    <section id="prices">
+        <h2>Our Prices</h2>
+        <div class="price-list">
+            <div class="price-item">
+                <h3>Basic Session</h3>
+                <p>$150</p>
+            </div>
+            <div class="price-item">
+                <h3>Event Photography</h3>
+                <p>$400</p>
+            </div>
+            <div class="price-item">
+                <h3>Wedding Photography</h3>
+                <p>$1200</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Photography Portfolio. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Link to the external JavaScript -->
+    <script src="scripts.js"></script>
+</body>
+</html>
